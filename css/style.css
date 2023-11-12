@@ -82,7 +82,7 @@ ul {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
-    transition:  .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .btn_secondary:hover {
@@ -383,7 +383,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
     gap: 1.7rem;
 }
 
@@ -393,12 +394,14 @@ ul {
 
 .product-wrapper .product {
     position: relative;
-    
+
 }
-.product-wrapper .product:hover button{
+
+.product-wrapper .product:hover button {
     display: block;
 }
-.product-wrapper .product button{
+
+.product-wrapper .product button {
     position: absolute;
     bottom: 10.9rem;
     left: 0;
@@ -444,42 +447,65 @@ ul {
     font-size: var(--textSize-md);
     color: var(--darkColor);
 }
-.product-wrapper .product-info{
+
+.product-wrapper .product-info {
     text-align: start;
     padding: .4rem;
     margin-top: 1rem;
     line-height: 3rem;
 }
-.product-wrapper .product-info h4{
+
+.product-wrapper .product-info h4 {
     /* padding: 2rem 0; */
     font-size: var(--textSize-sm);
     color: black;
 }
-.product-wrapper .product-info .rating-icon{
+
+.product-wrapper .product-info .rating-icon {
     color: #FFAD33;
 }
-.product-wrapper .product-info .total-rating{
+
+.product-wrapper .product-info .total-rating {
     color: var(--grayColor);
     font-size: var(--textSize-sm);
 }
-.product-wrapper .product-info .price{
+
+.product-wrapper .product-info .price {
     color: var(--primaryColor);
     font-weight: 500;
 }
-.product-wrapper .product-info .old-price{
+
+.product-wrapper .product-info .old-price {
     color: var(--grayColor);
     text-decoration: line-through;
 }
 
 
+/* Category section style */
+.category .category-list {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 3rem;
+}
 
+.category .category-list .box {
+    border: 1px solid #dadada;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: .3 ease-in-out;
+    cursor: pointer;
+}
+.category .category-list .box:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor-1);
+}
 
+.category .category-list .box span {
+    font-size: var(--textSize-md);
+    margin-bottom: 1rem;
+    display: block;
+}
 
-
-
-
-
-
-
-
-
+.category .category-list .box p {}
