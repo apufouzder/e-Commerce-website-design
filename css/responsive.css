@@ -1,0 +1,46 @@
+/* Styles for screens smaller than or equal to 600px */
+@media only screen and (max-width: 600px) {
+
+    .header-banner {
+        flex-direction: column;
+    }
+
+    .header .header-wrapper .header-banner {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .search-option {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .main-navbar {
+        padding: 2rem rem 0.6rem;
+    }
+
+}
+
+/* Styles for screens between (601px and 900px screen) */
+@media only screen and (max-width: 1000px) {
+
+    .header-items {
+        display: none;
+    }
+
+    .filter_left-nav {
+        display: block;
+        width: 50px;
+    }
+}
+
+/* Styles for screens larger than 900px (Big screen)*/
+@media only screen and (min-width: 901px) {}
