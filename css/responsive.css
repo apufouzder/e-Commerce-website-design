@@ -16,6 +16,13 @@
     .our-products-wrap{
         padding: 0 1.2rem;
     }
+
+    .featured-wrap {
+        grid-template-columns: auto;
+    }
+    .box4 {
+        grid-template-columns: auto; 
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -30,7 +37,7 @@
     .main-navbar {
         padding: 2rem rem 0.6rem;
     }
-
+    
 }
 
 /* Styles for screens between (601px and 900px screen) */

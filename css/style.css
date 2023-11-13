@@ -391,7 +391,7 @@ ul {
 
 .product-wrapper {
     margin-top: 5.5rem;
-    
+
 }
 
 .product-wrapper .product {
@@ -500,6 +500,7 @@ ul {
     transition: .3 ease-in-out;
     cursor: pointer;
 }
+
 .category .category-list .box:hover {
     background-color: var(--primaryColor);
     color: var(--whiteColor-1);
@@ -512,25 +513,27 @@ ul {
 }
 
 /* Month section style */
-.month-section{
+.month-section {
     padding: 4rem 0;
     /* margin-bottom: 6rem; */
 }
-.month-section .title-with-btn{
+
+.month-section .title-with-btn {
     justify-content: space-between;
 }
 
 /* category-features style*/
-.category-features{
+.category-features {
     padding: 6rem 0;
 }
 
 
 /* Our products section styles */
-.our-products{
+.our-products {
     padding-bottom: 4rem;
 }
-.our-products-wrap{
+
+.our-products-wrap {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 3rem;
@@ -539,19 +542,72 @@ ul {
 }
 
 
+/* Featured section styles */
+.featured-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns */
+    gap: 2rem;
+    margin: 4rem 0;
+    position: relative;
+    padding-bottom: 4rem;
+}
 
+.box2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    /* Two rows */
+    gap: 2rem;
+}
 
+.box1,
+.box3,
+.box5,
+.box6 {
+    position: relative;
+}
 
+.box4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Two columns */
+    gap: 2rem;
+    /* padding: 1rem; */
+}
 
+.box4 img {
+    padding: 3rem;
+}
 
+.box img {
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkColor);
+    border-radius: .5rem;
+}
 
+.featured-wrap .content {
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+    width: 245px;
+}
 
+.featured-wrap .content h3 {
+    font-size: var(--textSize-lg);
+    font-weight: 500;
+    color: var(--whiteColor-1);
+}
 
+.featured-wrap .content p {
+    margin: 1.2rem 0;
+    line-height: 2.7rem;
+    font-size: var(--textSize-sm);
+    color: var(--whiteColor-2);
+}
 
+.featured-wrap .content a {
+    color: var(--whiteColor-1);
+    text-decoration: underline;
 
-
-
-
-
-
-
+}
