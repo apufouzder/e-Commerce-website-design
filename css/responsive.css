@@ -17,9 +17,7 @@
         padding: 0 1.2rem;
     }
 
-    .featured-wrap {
-        grid-template-columns: auto;
-    }
+    
     .box4 {
         grid-template-columns: auto; 
     }
@@ -40,6 +38,13 @@
     
 }
 
+
+@media only screen and (max-width: 901px) {
+    .featured-wrap {
+        grid-template-columns: auto;
+    }
+}
+
 /* Styles for screens between (601px and 900px screen) */
 @media only screen and (max-width: 1000px) {
 
@@ -53,5 +58,3 @@
     }
 }
 
-/* Styles for screens larger than 900px (Big screen)*/
-@media only screen and (min-width: 901px) {}

@@ -611,3 +611,35 @@ ul {
     text-decoration: underline;
 
 }
+
+
+/* Service section styles */
+.services{
+    margin: 5rem 0;
+}
+.services .service-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 3rem;
+}
+.service{
+    text-align: center;
+    padding: 2rem;
+}
+.service span i {
+    font-size: 3rem;
+    background: var(--darkColor);
+    color: var(--whiteColor-1);
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1rem solid var(--whiteColor-2);
+}
+.services span{
+    margin-bottom: 4.6rem;
+    display: block;
+}
+.services h3{
+    font-size: var(--textSize-md);
+    color: var(--darkColor);
+    margin-bottom: 1rem;
+}
