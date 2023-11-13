@@ -417,6 +417,7 @@ ul {
     padding: 4rem 1rem;
     border-radius: 5px;
     position: relative;
+    text-align: center;
 }
 
 .product-wrapper .product .car-top .card-tag {
@@ -523,3 +524,34 @@ ul {
 .category-features{
     padding: 6rem 0;
 }
+
+
+/* Our products section styles */
+.our-products{
+    padding-bottom: 4rem;
+}
+.our-products-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem;
+    margin-bottom: 7rem;
+    padding: 0 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

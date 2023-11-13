@@ -12,6 +12,10 @@
     .search-option {
         display: none;
     }
+
+    .our-products-wrap{
+        padding: 0 1.2rem;
+    }
 }
 
 @media only screen and (max-width: 800px) {
