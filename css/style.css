@@ -98,6 +98,7 @@ ul {
     display: inline-flex;
     flex-direction: column;
     gap: 1.3rem;
+    width: 100%;
 }
 
 .section-title-wrapper .heading {
@@ -389,7 +390,8 @@ ul {
 }
 
 .product-wrapper {
-    margin-top: 3rem;
+    margin-top: 5.5rem;
+    
 }
 
 .product-wrapper .product {
@@ -508,4 +510,16 @@ ul {
     display: block;
 }
 
-.category .category-list .box p {}
+/* Month section style */
+.month-section{
+    padding: 4rem 0;
+    /* margin-bottom: 6rem; */
+}
+.month-section .title-with-btn{
+    justify-content: space-between;
+}
+
+/* category-features style*/
+.category-features{
+    padding: 6rem 0;
+}
